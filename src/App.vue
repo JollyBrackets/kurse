@@ -1,8 +1,11 @@
 <template>
   <div id="app">
+    <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar-brand href="#">Kurse</b-navbar-brand>
+    </b-navbar>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/termine">Termine</router-link>
     </div>
     <router-view/>
   </div>
